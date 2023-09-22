@@ -1,0 +1,7 @@
+adaptor[generative]
+numpy
+torch
+wandb
+scikit-learn
+transformers
+tokenizers

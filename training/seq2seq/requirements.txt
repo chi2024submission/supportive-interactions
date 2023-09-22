@@ -1,0 +1,3 @@
+adaptor[generative]
+wandb
+scikit-learn

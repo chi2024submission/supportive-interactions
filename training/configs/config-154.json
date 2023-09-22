@@ -1,0 +1,17 @@
+{
+    "run_id": "154",
+    "tag": "chi_256_02c_en",
+    "dir": "outputs",
+    "model_name": "xlm-roberta-large",
+    "max_length": 256,
+    "epochs": 20,
+    "target_names": ["0", "1"],
+    "per_device_batch": 64,
+    "learning_rate": 1e-5,
+    "save_total_limit": 6,
+    "early_stopping_patience": 5,
+    "logging_strategy":"epoch",
+    "evaluation_strategy":"epoch",
+    "save_strategy":"epoch",
+    "gradient_acc": 1
+}
